@@ -1,0 +1,169 @@
+.container-fluid{
+    padding : 3% 15% 10%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+    /* font-weight: 900; */
+}
+
+/* Heading */
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color : #fff;
+}
+.navbar{
+    margin-bottom :5rem; 
+} 
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size:3rem;
+}
+.nav-item {
+    padding : 0 1rem;
+}
+h1 {
+    font-size:3rem;
+    line-height: 1.5;
+}
+.btn {
+    margin-top : 10px;
+    margin-right : 10px;
+}
+.title-img{
+    transform : rotate(25deg);
+    position:absolute;
+    right:25%;
+    /* top:23%; */
+    z-index:0;
+}
+
+/* Features */
+
+#features {
+    background-color: #fff;
+    position:relative;
+    z-index:1;
+}
+
+.features-row {
+    padding:10% 10%;
+}
+
+.fa-solid {
+    color: #ef8172;
+    padding :5%;
+}
+
+.fa-solid:hover {
+    color:#ff4c68;
+}
+
+.features-table {
+    text-align:center;
+}
+h3 {
+    font-size:1.5rem;
+    
+}
+.features-para {
+    font-size:1rem;
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color:#ef8172;
+    text-align : center;
+    color:#fff;
+}
+
+h2 {
+    
+    font-size: 3rem;
+    /* padding-bottom : 7%; */
+}
+
+.testimonial-image {
+    width : 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#testimonial-carousel {
+    padding : 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color:#ef8172;
+    text-align:center;
+}
+
+.press-logo {
+    padding-bottom:3%;
+    margin:20px 10px 50px;
+    /* width:25%; */
+}
+
+/* Pricing */
+#pricing {
+    padding:10% 15%;
+    text-align:center;
+}
+/* .row-pricing {
+    /* padding-top : 10%; 
+} */
+.col-pricing {
+    padding : 3% 2%;
+}
+/* .btn-pricing {
+    width:250px;
+    height: 50px;
+    font-weight: bolder;
+} */
+
+/* Call to action */
+
+#call-to-action {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color : #fff;
+}
+.btn-cta {
+    margin-top:5%;
+}
+
+/* Footer */
+
+#footer {
+    text-align:center;
+    padding:8% 15%;
+}
+
+.footer-icon {
+    padding:1%;
+}
+
+/* Media query */
+
+@media (max-width:1100px) {
+    .title-img {
+        position : static;
+        transform : rotate(0deg);
+        margin-top:30px;
+    }
+    #title {
+        text-align:center;
+    }
+
+}
